@@ -1,0 +1,135 @@
+[{
+  "type": "toolbar",
+  "args": [
+    null
+  ],
+  "sub": [
+    [
+      {
+        "type": "button-group",
+        "args": [
+          null
+        ],
+        "sub": [
+          [
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            }
+          ]
+        ]
+      },
+      {
+        "type": "button-group",
+        "args": [
+          null
+        ],
+        "sub": [
+          [
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            },
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            }
+          ]
+        ]
+      },
+      {
+        "type": "button-group",
+        "args": [
+          null
+        ],
+        "sub": [
+          [
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            },
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            }
+          ]
+        ]
+      },
+      {
+        "type": "button-group",
+        "args": [
+          null
+        ],
+        "sub": [
+          [
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": [],
+              "ID": "",
+              "param": {
+                "text": "提交form啦",
+                "icon": null,
+                "code-onclick": "API.get('form1').submit();\nAPI.alert(API.get('input2').val())"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "type": "button-group",
+        "args": [
+          null
+        ],
+        "sub": [
+          [
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": [],
+              "ID": "",
+              "param": {
+                "text": "TABLE测试",
+                "icon": null,
+                "code-onclick": "console.log(\"TABLE测试\");\nAPI.get(\"tableTest\").update([{name:\"jack\"},{},{},{}])"
+              }
+            },
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            },
+            {
+              "type": "button",
+              "args": [
+                null
+              ],
+              "sub": []
+            }
+          ]
+        ]
+      }
+    ]
+  ]
+}]

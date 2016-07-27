@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html,body{
+            height:100%;
+        }
+        .ly-full{
+            height:100%;
+            margin-bottom:-15px !important;
+        }
+        .ui-comps{
+            outline:1px solid #fabe00;
+        }
+        .ui-sortable-placeholder{
+            outline:2px dotted darkseagreen;
+            visibility: visible !important;
+        }
+        *{
+            font-family: "微软雅黑";
+        }
+    </style>
+
+    <link rel="stylesheet" href="http://localhost:8880/style.css">
+    <link rel="stylesheet" href="assets/prism/prism.css">
+    <title>PageCreator</title>
+</head>
+<body style-require="bootstrap" class="style-require">
+
+<header></header>
+<div class="container-fluid ly-full" id="container">
+
+</div>
+
+<script src="../dist/manifest/vendor.js"></script>
+<script src="../dist/webpack-dev-server.js"></script>
+<script src="http://localhost:8880/polyfill.js"></script>
+
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.js"></script>
+
+<script src="assets/prism/prism.js"></script>
+
+
+<script src="http://localhost:8880/index.js"></script>
+</body>
+</html>
